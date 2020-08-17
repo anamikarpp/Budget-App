@@ -395,7 +395,12 @@ var controller =(function(budgetCtrl,UICtrl){
   };
     return {
         init: function(){
-            alert("Welcome to budget Calculator.");
+            alert('Welcome to budget Calculator'+
+                  '1. Select + for income'+
+                 ' 2. Select - for expenses'+
+                 ' 3.In the description source of above'+
+                  '4. Enter the amount in next one'+
+                 ' 5. press enter to see the result');
             console.log('Application has started.');
             UICtrl.displayMonth();
             UICtrl.displayBudget({
